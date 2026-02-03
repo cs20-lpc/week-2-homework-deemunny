@@ -11,8 +11,9 @@ private:
 
 public:
     // TODO: Write PROTOTYPE for  constructor that initializes both values
-
+    Pair(T1 val1, T2 val2) : first(val1), second(val2){}
     // TODO: Write PROTOTYPE for  function named print()
+    void print() { std::cout << first << std::endl << second << std::endl; }
     // It should display both values in the format:
     // (value1, value2)
 };
